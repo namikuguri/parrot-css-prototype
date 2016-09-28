@@ -1,0 +1,17 @@
+// Container
+//
+// Markup:
+// <div class="container">
+//   <p>Container</p>
+// </div>
+// 
+// Styleguide layout.container
+
+.container {
+  box-sizing: border-box;
+  max-width: $size-container;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+// Theme Setting
+// - Color
+// - Size
+// - Typograpy
+
+// Color
+$color-primary: #36B395;
+$color-primary-intermediate: adjust-hue($color-primary, 60deg);
+$color-primary-complement: complement($color-primary);
+$color-primary-saturate: saturate($color-primary, 20%);
+$color-primary-desaturate: desaturate($color-primary, 20%);
+$color-primary-alpha80: rgba($color-primary, .8);
+$color-black: #000;
+$color-gray: grayscale($color-primary);
+$color-gray-lighten: lighten($color-gray, 40%);
+$color-white: #fff;
+
+// Size
+$size: 1em;
+$size-container: $size * 60;
+$size-x0-25: $size * 0.25;
+$size-x0-5: $size * 0.5;
+$size-x0-75: $size * 0.85;
+$size-x1-5: $size * 1.5;
+$size-x2: $size * 2;
+$size-x2-5: $size * 2.5;
+$size-x3: $size * 3;
+$size-x4: $size * 4;
+$size-x5: $size * 5;
+$size-x6: $size * 5;
+$size-x10: $size * 10;
+$size-x40: $size * 40;
+$size-golden-ratio: 61.803398875%;
+$size-golden-ratio-pair: 38.196601125%;
+$size-silver-ratio: 41.4%;
+$size-silver-ratio-pair: 58.6%;
+
+// Typograpy
+$font-sans-serif: "Helvetica Neue", Helvetica, Arial, Meiryo, sans-serif;
+$font-serif: YuMincho, "Yu Mincho", "游明朝", "ヒラギノ明朝 ProN W6", HiraMinProN-W6, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+$line-height: 1.5;

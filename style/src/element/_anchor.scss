@@ -1,0 +1,21 @@
+// Anchor
+//
+// Markup:
+// <a href="/">リンク</a>
+//
+// :hover     - Highlight the button when hovered.
+// :disabled  - Make the button change appearance to reflect it being disabled.
+// :active    - "Press" the button down when clicked.
+//
+// Style guide: element.anchor
+a {
+  color: $color-primary;
+  &:hover,
+  &:focus {
+    color: lighten($color-primary, 6%);
+    text-decoration: none;
+  }
+  &:active {
+    color: darken($color-primary, 6%);
+  }
+}

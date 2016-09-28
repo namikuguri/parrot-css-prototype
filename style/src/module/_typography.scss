@@ -1,0 +1,26 @@
+// Typography
+//
+// Markup:
+// <h1 class="title-primary">Heading</h1>
+// <h2 class="title-secondary">Heading</h2>
+// <h3 class="title-tertiary">Heading</h3>
+// <h4 class="title-quaternary">Heading</h4>
+// <p>normal, <a href="" title="link">link</a>, <strong>strong</strong>, <em>emphasis</em>, <small>small</small></p>
+//
+// Styleguide module.typography
+
+.title-primary {
+  font-size: $size-x3;
+}
+
+.title-secondary {
+  font-size: $size-x2;
+}
+
+.title-tertiary {
+  font-size: $size-x1-5;
+}
+
+.title-quaternary {
+  font-size: $size;
+}

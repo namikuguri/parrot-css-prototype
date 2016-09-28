@@ -1,0 +1,67 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// メディアクエリのブレークポイントを管理する
+@mixin media-larger {
+  @media screen and (min-width: 40em) {
+    @content;
+  }
+}
+
+// Grid
+// _grid.scss で使用
+@mixin grid-col($num:1) {
+  $grid-width: 100%;
+  $grid-gutter: 4%;
+  $grid-column: ($grid-width - $grid-gutter * 11) / 12;
+
+  width: $grid-column * $num + $grid-gutter * ($num - 1);
+  margin-left: $grid-gutter;
+}
+
+@mixin grid-col-offset($num:1) {
+  $grid-width: 100%;
+  $grid-gutter: 4%;
+  $grid-column: ($grid-width - $grid-gutter * 11) / 12;
+  margin-left: ($grid-column * $num + $grid-gutter * ($num - 1)) + $grid-gutter;
+}
+
+// Button
+// _button.scss で使用
+@mixin button-color($color) {
+  color: $color-white;
+  border-color: transparent;
+  background-color: $color;
+  &:hover,
+  &:focus {
+    background-color: lighten($color, 6%);
+  }
+  &:active {
+    background-color: darken($color, 6%);
+  }
+}
+
+@mixin button-wire-color($color) {
+  color: $color;
+  border-color: $color;
+  &:hover,
+  &:focus {
+    border-color: lighten($color, 6%);
+    color: lighten($color, 6%);
+  }
+  &:active {
+    border-color: darken($color, 6%);
+    color: darken($color, 6%);
+  }
+}
+
+@mixin button-disabled-color($color) {
+  color: darken($color, 15%);
+  border-color: transparent;
+  background-color: $color;
+}

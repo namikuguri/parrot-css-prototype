@@ -1,0 +1,55 @@
+// Button
+//
+// Markup:
+// <a href="/" title="Button" class="btn btn-default">Button</a>
+// <a href="/" title="Button" class="btn btn-primary">Button</a>
+// <a href="/" title="Button" class="btn btn-disabled">Button</a>
+// <a href="/" title="Button" class="btn btn-default-wire">Button</a>
+// <a href="/" title="Button" class="btn btn-primary-wire">Button</a>
+// <a href="/" title="Button" class="btn btn--large btn-default">Button</a>
+// <a href="/" title="Button" class="btn btn--small btn-default">Button</a>
+//
+// :hover - lightern
+//
+// Styleguide module.button
+
+.btn {
+  display: inline-block;
+  padding: $size-x0-5 $size;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: $size;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+  }
+  &.btn--large {
+    font-size: $size-x1-5;
+    padding: $size-x0-25 $size-x0-75;
+  }
+  &.btn--small {
+    font-size: $size-x0-75;
+  }
+}
+
+.btn-default {
+  @include button-color($color-black);
+}
+
+.btn-primary {
+  @include button-color($color-primary);
+}
+
+.btn-default-wire {
+  @include button-wire-color($color-black);
+}
+
+.btn-primary-wire {
+  @include button-wire-color($color-primary);
+}
+
+.btn-disabled {
+  @include button-disabled-color($color-gray);
+  cursor: not-allowed
+}

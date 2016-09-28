@@ -1,0 +1,15 @@
+// Image
+//
+// Markup:
+// <img src="http://thleap.net/images/work/vespa/illust.png" alt="">
+//
+// Style guide: element.image
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  @include media-larger {
+    display: inline-block;
+  }
+}

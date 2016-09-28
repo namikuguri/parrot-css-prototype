@@ -1,0 +1,177 @@
+#kss-node {
+  padding: 0;
+}
+
+#kss-node .kss-style {
+  color: gray ;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* Sidebar */
+#kss-node .kss-sidebar {
+  background-image: none;
+  background-color: black;
+  padding: 1em;
+  box-shadow: none;
+}
+@media screen and (min-width: 769px) {
+  #kss-node .kss-sidebar {
+    padding: 0 10px 0 20px;
+  }
+}
+
+#kss-node .kss-doc-title {
+  color: white;
+}
+
+#kss-node .kss-nav__menu {
+  margin-top: .5em;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 769px) {
+  #kss-node .kss-nav__menu {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+#kss-node .kss-nav__name {
+  text-transform: capitalize;
+}
+
+#kss-node .kss-nav__menu-link {
+  color: gray;
+}
+
+#kss-node .kss-nav__menu-link.is-in-viewport {
+  color: white;
+}
+
+#kss-node .kss-nav__menu-link.is-in-viewport:before {
+  width: 0;
+}
+
+#kss-node .kss-nav__menu-child li:first-child {
+  border-top-width: 0;
+  margin-top: 0.5em;
+  padding: 0;
+}
+
+#kss-node .kss-nav__menu-child li:last-child {
+  border-bottom-width: 0;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+#kss-node .kss-nav__menu-child .kss-nav__menu-link {
+  margin-left: 1em;
+}
+
+/* Main */
+#kss-node .kss-main {
+  width: auto;
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 769px) {
+  #kss-node .kss-main {
+    padding: 0 2em;
+    width: 80%;
+  }
+}
+
+#kss-node .kss-section {
+  max-width: 60em;
+  margin: 0 auto 2em;
+  padding-top: 2em;
+}
+
+#kss-node .kss-title {
+  pointer-events: none;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+#kss-node .kss-title__permalink {
+  color: gray;
+}
+
+#kss-node .kss-title--level-1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#kss-node .kss-title--level-1 .kss-title__permalink {
+  color: black;
+}
+
+#kss-node .kss-title--level-2 {
+  margin: .5em 0;
+  font-size: 1.5em;
+}
+
+#kss-node .kss-markup {
+  background-color: whiteSmoke;
+}
+
+.kss-style pre,
+.kss-style code,
+.kss-style kbd,
+.kss-style samp {
+  font-family: Consolas, Courier, monospace;
+  font-size: .875em;
+  color: gray;
+}
+
+#kss-node .kss-modifier__heading {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  border-bottom-color: gray;
+  background-color: transparent;
+  font-weight: 300;
+  color: gray;
+}
+
+#kss-node .kss-modifier__example {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+#kss-node .kss-markup {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: .5em 1em;
+  border-width: 0;
+}
+
+#kss-node ol.linenums {
+  padding: 0;
+}
+
+#kss-node ol.linenums li {
+  min-height: auto;
+  border-bottom-width: 0;
+  padding: 0;
+}
+
+#kss-node ol.linenums li:first-child {
+  padding: 0;
+}
+
+#kss-node ol.linenums li,
+#kss-node ol.linenums li.L0,
+#kss-node ol.linenums li.L2,
+#kss-node ol.linenums li.L4,
+#kss-node ol.linenums li.L6,
+#kss-node ol.linenums li.L8 {
+  background-color: transparent;
+}
+
+#kss-node .kss-source {
+  font-size: .875em;
+  color: gray;
+}

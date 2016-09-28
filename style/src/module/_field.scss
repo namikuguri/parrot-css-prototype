@@ -1,0 +1,31 @@
+// Field
+//
+// Markup:
+// <section class="field">
+//   <div class="container">
+//     <p>Default :P</p>
+//   </div>
+// </section> 
+// <section class="field field--primary">
+//   <div class="container">
+//     <p>Primary :P</p>
+//   </div>
+// </section> 
+//
+// Styleguide module.field
+
+.field {
+  padding-top: $size-x5;
+  padding-bottom: $size-x5;
+  &.field--primary {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  &.field--primary-intermediate {
+    background-color: $color-primary-intermediate;
+    color: $color-white;
+  }
+  &.field--gray-lighten {
+    background-color: $color-gray-lighten;
+  }
+}
