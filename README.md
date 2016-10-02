@@ -14,7 +14,6 @@
 - dialog
 - feed
 - thumbnail
-- tag-cloud
 - icon
 - [x] button
 - banner
@@ -29,15 +28,15 @@
 - toolbar
 - tooltip
 - figure
+- [x] table
 - form
-- table
     - input
     - select
     - radio
     - checkbox
     - label
     - fieldset
-- list
+- [x] list
     - ul
     - ol
     - dl

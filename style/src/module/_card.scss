@@ -1,0 +1,42 @@
+// Card
+//
+// Markup:
+// <section class="field field--gray-lighten">
+//   <div class="container">
+//     <div class="card">
+//       <div class="card__item card__title">タイトル</div>
+//       <div class="card__item card__media">
+//         <img src="http://thleap.net/images/work/vespa/illust.png" alt="">
+//       </div>
+//       <div class="card__item ">あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。</div>
+//       <div class="card__item card__item--border">
+//         <a href="/">リンク</a>
+//       </div>
+//     </div>
+//   </div>
+// </section>
+//
+// Styleguide module.card
+.card {
+  background: $color-white;
+}
+
+.card__item {
+  padding: $size;
+  &.card__item--border {
+    border-top: 1px solid $color-gray-lighten;
+  }
+  &.card__item--primary {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
+
+.card__title {
+  font-size: $size-x1-5;
+  text-align: center;
+}
+
+.card__media {
+  text-align: center;
+}

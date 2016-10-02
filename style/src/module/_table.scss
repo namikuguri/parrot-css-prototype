@@ -1,0 +1,48 @@
+// Table
+//
+// Markup:
+// <table class="table">
+//   <tr>
+//     <th>Table Heading</th>
+//     <td>Table Data</td>
+//   </tr>
+// </table>
+//
+// Styleguide module.table
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  th,
+  td {
+    display: block;
+    padding: $size;
+    border: 1px solid $color-gray-lighten;
+    text-align: left;
+    & + th,
+    & + td {
+      border-top-width: 0;
+    }
+    @include media-larger {
+      display: table-cell;
+      & + th,
+      & + td {
+        border-top-width: 1px;
+      }
+    }
+  }
+}
+
+// Table -- Full
+//
+// Markup:
+// <table class="table table--full">
+//   <tr>
+//     <th>Table Heading</th>
+//     <td>Table Data</td>
+//   </tr>
+// </table>
+//
+// Styleguide module.table.table--full
+.table--full {
+  width: 100%;
+}

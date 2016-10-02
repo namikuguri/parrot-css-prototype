@@ -1,0 +1,37 @@
+// List
+//
+// Markup:
+// <ul>
+//   <li>リスト</li>
+//   <li>リスト
+//     <ul>
+//       <li>子リスト</li>
+//       <li>子リスト</li>
+//     </ul>
+//   </li>
+//   <li>リスト</li>
+// </ul>
+// <ol>
+//   <li>リスト</li>
+//   <li>リスト</li>
+//   <li>リスト</li>
+// </ol>
+// <dl>
+//   <dt>リスト</dt>
+//   <dd>リスト</dd>
+// </dl>
+//
+// Styleguide element.list
+ul,
+ol {
+  padding-left: 1.25em;
+}
+
+dl {
+  dt {
+    font-weight: 700;
+  }
+  dd {
+    margin-left: 0;
+  }
+}

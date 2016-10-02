@@ -19,91 +19,90 @@
 // Styleguide layout.grid
 .l-row {
   @include clearfix;
-  @include media-larger;
-
-  .l-row__col {
-    box-sizing: border-box;
-    float: left;
-    &:first-child {
-      margin-left: 0;
+  @include media-larger {
+    .l-row__col {
+      box-sizing: border-box;
+      float: left;
+      &:first-child {
+        margin-left: 0;
+      }
     }
-  }
-
-  .l-row__col1 {
-    @include grid-col(1);
-  }
-  .l-row__col2 {
-    @include grid-col(2);
-  }
-  .l-row__col3 {
-    @include grid-col(3);
-  }
-  .l-row__col4 {
-    @include grid-col(4);
-  }
-  .l-row__col5 {
-    @include grid-col(5);
-  }
-  .l-row__col6 {
-    @include grid-col(6);
-  }
-  .l-row__col7 {
-    @include grid-col(7);
-  }
-  .l-row__col8 {
-    @include grid-col(8);
-  }
-  .l-row__col9 {
-    @include grid-col(9);
-  }
-  .l-row__col10 {
-    @include grid-col(10);
-  }
-  .l-row__col11 {
-    @include grid-col(11);
-  }
-  .l-row__one-offset,
-  .l-row__one-offset:first-child {
-    @include grid-col-offset(1);
-  }
-  .l-row__col2-offset,
-  .l-row__col2-offset:first-child {
-    @include grid-col-offset(2);
-  }
-  .l-row__col3-offset,
-  .l-row__col3-offset:first-child {
-    @include grid-col-offset(3);
-  }
-  .l-row__col4-offset,
-  .l-row__col4-offset:first-child {
-    @include grid-col-offset(4);
-  }
-  .l-row__col5-offset,
-  .l-row__col5-offset:first-child {
-    @include grid-col-offset(5);
-  }
-  .l-row__col6-offset,
-  .l-row__col6-offset:first-child {
-    @include grid-col-offset(6);
-  }
-  .l-row__col7-offset,
-  .l-row__col7-offset:first-child {
-    @include grid-col-offset(7);
-  }
-  .l-row__col8-offset,
-  .l-row__col8-offset:first-child {
-    @include grid-col-offset(8);
-  }
-  .l-row__col9-offset,
-  .l-row__col9-offset:first-child {
-    @include grid-col-offset(9);
-  }
-  .l-row__col10-offset,
-  .l-row__col10-offset:first-child {
-    @include grid-col-offset(10);
-  }
-  .l-row__col11-offset,
-  .l-row__col11-offset:first-child {
-    @include grid-col-offset(11);
+    .l-row__col1 {
+      @include grid-col(1);
+    }
+    .l-row__col2 {
+      @include grid-col(2);
+    }
+    .l-row__col3 {
+      @include grid-col(3);
+    }
+    .l-row__col4 {
+      @include grid-col(4);
+    }
+    .l-row__col5 {
+      @include grid-col(5);
+    }
+    .l-row__col6 {
+      @include grid-col(6);
+    }
+    .l-row__col7 {
+      @include grid-col(7);
+    }
+    .l-row__col8 {
+      @include grid-col(8);
+    }
+    .l-row__col9 {
+      @include grid-col(9);
+    }
+    .l-row__col10 {
+      @include grid-col(10);
+    }
+    .l-row__col11 {
+      @include grid-col(11);
+    }
+    .l-row__one-offset,
+    .l-row__one-offset:first-child {
+      @include grid-col-offset(1);
+    }
+    .l-row__col2-offset,
+    .l-row__col2-offset:first-child {
+      @include grid-col-offset(2);
+    }
+    .l-row__col3-offset,
+    .l-row__col3-offset:first-child {
+      @include grid-col-offset(3);
+    }
+    .l-row__col4-offset,
+    .l-row__col4-offset:first-child {
+      @include grid-col-offset(4);
+    }
+    .l-row__col5-offset,
+    .l-row__col5-offset:first-child {
+      @include grid-col-offset(5);
+    }
+    .l-row__col6-offset,
+    .l-row__col6-offset:first-child {
+      @include grid-col-offset(6);
+    }
+    .l-row__col7-offset,
+    .l-row__col7-offset:first-child {
+      @include grid-col-offset(7);
+    }
+    .l-row__col8-offset,
+    .l-row__col8-offset:first-child {
+      @include grid-col-offset(8);
+    }
+    .l-row__col9-offset,
+    .l-row__col9-offset:first-child {
+      @include grid-col-offset(9);
+    }
+    .l-row__col10-offset,
+    .l-row__col10-offset:first-child {
+      @include grid-col-offset(10);
+    }
+    .l-row__col11-offset,
+    .l-row__col11-offset:first-child {
+      @include grid-col-offset(11);
+    }
   }
 }

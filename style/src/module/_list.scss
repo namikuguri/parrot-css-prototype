@@ -1,0 +1,100 @@
+// List
+//
+// Markup:
+// <ul class="list l-row">
+//   <li class="l-row__col l-row__col4">リスト</li>
+//   <li class="l-row__col l-row__col4">リスト</li>
+//   <li class="l-row__col l-row__col4">リスト</li>
+// </ul>
+//
+// Styleguide module.list
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+// List -- Flex
+//
+// Markup:
+// <section class="field field--gray-lighten">
+//   <div class="container">
+//     <ul class="list l-row list--flex">
+//       <li class="l-row__col l-row__col6 card">
+//         <div class="card__item">あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。</div>
+//       </li>
+//       <li class="l-row__col l-row__col6 card">
+//         <div class="card__item">あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。あいうえおカキクケコさしすせそタチツテト。</div>
+//       </li>
+//     </ul>
+//   </div>
+// </section>
+//
+// Styleguide module.list.list-flex
+.list--flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// Horizontal List
+//
+// Markup:
+// <ul class="horizontal-list">
+//   <li>リスト</li>
+//   <li>リスト</li>
+//   <li>リスト</li>
+// </ul>
+//
+// Styleguide module.list.horizontal-list
+.horizontal-list {
+  list-style: none;
+  padding-left: 0;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  li {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+// Inline List
+//
+// Markup:
+// <ul class="inline-list">
+//   <li>リスト</li>
+//   <li>リスト</li>
+//   <li>リスト</li>
+// </ul>
+//
+// Styleguide module.list.inline-list
+.inline-list {
+  list-sytle: none;
+  padding-left: 0;
+  li {
+    display: inline;
+  }
+}
+
+// Inline List -- Bordered
+//
+// Markup:
+// <ul class="inline-list inline-list--bordered">
+//   <li>リスト</li>
+//   <li>リスト</li>
+//   <li>リスト</li>
+// </ul>
+//
+// Styleguide module.list.inline-list-bordered
+.inline-list--bordered {
+  li {
+    &:after {
+      content: "";
+      padding-right: $size-x0-75;
+      margin-right: $size-x0-5;
+      border-right: 1px solid $color-gray-lighten;
+    }
+    &:last-child:after {
+      content: none;
+    }
+  }
+}

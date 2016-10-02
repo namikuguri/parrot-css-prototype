@@ -9,6 +9,7 @@ $color-primary-intermediate: adjust-hue($color-primary, 60deg);
 $color-primary-complement: complement($color-primary);
 $color-primary-saturate: saturate($color-primary, 20%);
 $color-primary-desaturate: desaturate($color-primary, 20%);
+$color-primary-lighten: lighten($color-primary, 20%);
 $color-primary-alpha80: rgba($color-primary, .8);
 $color-black: #000;
 $color-gray: grayscale($color-primary);

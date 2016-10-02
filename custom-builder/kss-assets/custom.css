@@ -107,7 +107,8 @@
   color: black;
 }
 
-#kss-node .kss-title--level-2 {
+#kss-node .kss-title--level-2,
+#kss-node .kss-title--level-3 {
   margin: .5em 0;
   font-size: 1.5em;
 }
