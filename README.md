@@ -5,7 +5,6 @@
 - [x] card
 - [x] hero
 - [x] button
-- ruby
 - figure
 - tab
 - menu
