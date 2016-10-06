@@ -1,0 +1,13 @@
+// Horizontal Line
+//
+// Markup:
+// <hr>
+//
+// Style guide: element.hr
+hr {
+  padding: 0;
+  margin: $size 0;
+  height: 1px;
+  background-color: $color-gray-lighten;
+  border-width: 0;
+}

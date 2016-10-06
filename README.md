@@ -4,31 +4,20 @@
 - [x] field
 - [x] card
 - [x] hero
+- [x] button
+- ruby
+- figure
+- tab
 - menu
-- accordion
 - media
     - img
     - video
     - audio
-- calender
-- dialog
-- feed
-- thumbnail
-- icon
-- [x] button
-- banner
-- tab
 - breadcrumbs
-- pagenation
 - tag
-- progress-bar
-- switch
-- slider
-- spinner
-- toolbar
-- tooltip
-- figure
-- [x] table
+- pagenation
+- icon
+- banner
 - form
     - input
     - select
@@ -36,6 +25,7 @@
     - checkbox
     - label
     - fieldset
+- [x] table
 - [x] list
     - ul
     - ol
@@ -50,5 +40,15 @@
     - strong
     - small
     - strike
-- hr
-- ruby
+- [x] hr
+- progress-bar
+- switch
+- slider
+- spinner
+- toolbar
+- tooltip
+- calender
+- dialog
+- feed
+- thumbnail
+- accordion
