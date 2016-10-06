@@ -1,0 +1,11 @@
+// Code
+//
+// Markup:
+// <p>あいうえお<code class="code">.abc</code>カキクケコ</p>
+//
+// Style guide: module.code
+.code {
+  padding: $size-x0-25;
+  background-color: $color-gray-lighten;
+  border-radius: 2px;
+}

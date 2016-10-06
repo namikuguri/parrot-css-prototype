@@ -12,6 +12,7 @@ $color-primary-desaturate: desaturate($color-primary, 20%);
 $color-primary-lighten: lighten($color-primary, 20%);
 $color-primary-alpha80: rgba($color-primary, .8);
 $color-black: #000;
+$color-black-alpha50: rgba($color-black, .5);
 $color-gray: grayscale($color-primary);
 $color-gray-lighten: lighten($color-gray, 40%);
 $color-white: #fff;
@@ -39,4 +40,5 @@ $size-silver-ratio-pair: 58.6%;
 // Typograpy
 $font-sans-serif: "Helvetica Neue", Helvetica, Arial, Meiryo, sans-serif;
 $font-serif: YuMincho, "Yu Mincho", "游明朝", "ヒラギノ明朝 ProN W6", HiraMinProN-W6, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+$font-mono: Consolas, Menlo, Courier, monospace;
 $line-height: 1.5;

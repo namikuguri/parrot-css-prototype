@@ -1,0 +1,18 @@
+// Pre
+//
+// Markup:
+// <pre>
+//   あいうえお
+//   カキクケコ
+//       あいうえお
+//           カキクケコ
+// </pre>
+//
+// Style guide: element.pre
+pre {
+  font-family: $font-mono;
+  font-size: $size-x0-75;
+  & code {
+    font-size: 100%;
+  }
+}

@@ -40,9 +40,29 @@ img {
     img {
       display: inline-block; } }
 
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 1em;
+  color: #757575;
+  border-left: 0.25em solid #dbdbdb; }
+
+code {
+  margin: 0.25em;
+  font-size: 0.85em;
+  font-family: Consolas, Menlo, Courier, monospace;
+  vertical-align: text-top; }
+
+pre {
+  font-family: Consolas, Menlo, Courier, monospace;
+  font-size: 0.85em; }
+  pre code {
+    font-size: 100%; }
+
 ul,
 ol {
-  padding-left: 1.25em; }
+  padding-left: 0;
+  list-style-position: inside; }
 
 dl dt {
   font-weight: 700; }
@@ -217,9 +237,18 @@ dl dd {
 .title-quaternary {
   font-size: 1em; }
 
+.code-block {
+  padding: 1em;
+  background-color: #dbdbdb;
+  border-radius: 2px; }
+  .code-block code {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0; }
+
 .list {
-  list-style: none;
-  padding-left: 0; }
+  list-style: none; }
 
 .list--flex {
   display: flex;
@@ -291,3 +320,45 @@ dl dd {
 
 .card__media {
   text-align: center; }
+
+.hero {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: #36B395; }
+  .hero.hero--image {
+    position: relative;
+    background-color: transparent;
+    background-image: url(http://thleap.net/images/work/vespa/illust.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+    .hero.hero--image:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 0; }
+    .hero.hero--image > .container {
+      position: relative;
+      z-index: 1; }
+
+.hero__title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center; }
+
+.hero__desc {
+  margin: 0 auto;
+  margin-top: 1em;
+  width: 40em;
+  text-align: center;
+  color: #fff; }
+
+.code {
+  padding: 0.25em;
+  background-color: #dbdbdb;
+  border-radius: 2px; }

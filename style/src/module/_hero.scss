@@ -1,0 +1,61 @@
+// Hero
+//
+// Markup:
+// <section class="hero">
+//   <div class="container">
+//     <div class="hero__title">タイトル</div>
+//     <div class="hero__desc">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ</div>
+//   </div>
+// </section>
+// <section class="hero hero--image">
+//   <div class="container">
+//     <div class="hero__title">タイトル</div>
+//     <div class="hero__desc">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ</div>
+//   </div>
+// </section>
+//
+// Styleguide module.hero
+.hero {
+  padding-top: $size-x5;
+  padding-bottom: $size-x5;
+  background: $color-primary;
+  &.hero--image {
+    position: relative;
+    background-color: transparent;
+    background-image: url(http://thleap.net/images/work/vespa/illust.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &:after {
+      content: "";
+      position:  absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $color-black-alpha50;
+      z-index: 0;
+    }
+    & > .container {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+.hero__title {
+  font-size: $size-x2;
+  font-weight: 700;
+  color: $color-white;
+  text-align: center;
+}
+
+.hero__desc {
+  margin: 0 auto;
+  margin-top: 1em;
+  width: $size-x40;
+  text-align: center;
+  color: $color-white;
+}
+
+

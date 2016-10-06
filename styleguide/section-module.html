@@ -52,8 +52,23 @@
                 </a>
               </li>
               <li class="kss-nav__menu-item">
+                <a class="kss-nav__menu-link" href="section-module.html#kssref-module-code">
+                  <span class="kss-nav__name">Code</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item">
+                <a class="kss-nav__menu-link" href="section-module.html#kssref-module-code-block">
+                  <span class="kss-nav__name">Code Block</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item">
                 <a class="kss-nav__menu-link" href="section-module.html#kssref-module-field">
                   <span class="kss-nav__name">Field</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item">
+                <a class="kss-nav__menu-link" href="section-module.html#kssref-module-hero">
+                  <span class="kss-nav__name">Hero</span>
                 </a>
               </li>
               <li class="kss-nav__menu-item">
@@ -234,6 +249,78 @@
         </div>
 
     </section>
+    <section id="kssref-module-code" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-module-code">
+            Code
+          </a>
+        </h2>
+
+
+      </div>
+
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+
+
+        <div class="kss-modifier__example">
+          <p>あいうえお<code class="code">.abc</code>カキクケコ</p>
+        </div>
+
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;あいうえお&lt;code class&#x3D;&quot;code&quot;&gt;.abc&lt;/code&gt;カキクケコ&lt;/p&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>src/module/_code.scss</code>, line 1
+        </div>
+
+    </section>
+    <section id="kssref-module-code-block" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-module-code-block">
+            Code Block
+          </a>
+        </h2>
+
+
+      </div>
+
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+
+
+        <div class="kss-modifier__example">
+          <pre class="code-block">
+  <code>
+    &lt;code&gt;
+      あいうえお
+    &lt;/code&gt;
+  </code>
+</pre>
+        </div>
+
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;pre class&#x3D;&quot;code-block&quot;&gt;
+  &lt;code&gt;
+    &amp;lt;code&amp;gt;
+      あいうえお
+    &amp;lt;/code&amp;gt;
+  &lt;/code&gt;
+&lt;/pre&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>src/module/_code-block.scss</code>, line 1
+        </div>
+
+    </section>
     <section id="kssref-module-field" class="kss-section kss-section--depth-2">
 
       <div class="kss-style">
@@ -279,6 +366,58 @@
 
         <div class="kss-source kss-style">
           Source: <code>src/module/_field.scss</code>, line 1
+        </div>
+
+    </section>
+    <section id="kssref-module-hero" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-module-hero">
+            Hero
+          </a>
+        </h2>
+
+
+      </div>
+
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+
+
+        <div class="kss-modifier__example">
+          <section class="hero">
+  <div class="container">
+    <div class="hero__title">タイトル</div>
+    <div class="hero__desc">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ</div>
+  </div>
+</section>
+<section class="hero hero--image">
+  <div class="container">
+    <div class="hero__title">タイトル</div>
+    <div class="hero__desc">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ</div>
+  </div>
+</section>
+        </div>
+
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;section class&#x3D;&quot;hero&quot;&gt;
+  &lt;div class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;hero__title&quot;&gt;タイトル&lt;/div&gt;
+    &lt;div class&#x3D;&quot;hero__desc&quot;&gt;あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class&#x3D;&quot;hero hero--image&quot;&gt;
+  &lt;div class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;hero__title&quot;&gt;タイトル&lt;/div&gt;
+    &lt;div class&#x3D;&quot;hero__desc&quot;&gt;あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>src/module/_hero.scss</code>, line 1
         </div>
 
     </section>
@@ -354,7 +493,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>src/module/_list.scss</code>, line 38
+          Source: <code>src/module/_list.scss</code>, line 37
         </div>
 
     </section>
@@ -392,7 +531,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>src/module/_list.scss</code>, line 60
+          Source: <code>src/module/_list.scss</code>, line 59
         </div>
 
     </section>
@@ -430,7 +569,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>src/module/_list.scss</code>, line 78
+          Source: <code>src/module/_list.scss</code>, line 77
         </div>
 
     </section>
@@ -482,7 +621,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>src/module/_list.scss</code>, line 16
+          Source: <code>src/module/_list.scss</code>, line 15
         </div>
 
     </section>

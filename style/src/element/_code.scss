@@ -1,0 +1,12 @@
+// Code
+//
+// Markup:
+// <p>あいうえお<code>.abc</code>カキクケコ</p>
+//
+// Style guide: element.code
+code {
+  margin: $size-x0-25;
+  font-size: $size-x0-75;
+  font-family: $font-mono;
+  vertical-align: text-top;
+}

@@ -1,0 +1,23 @@
+// Code Block
+//
+// Markup:
+// <pre class="code-block">
+//   <code>
+//     &lt;code&gt;
+//       あいうえお
+//     &lt;/code&gt;
+//   </code>
+// </pre>
+//
+// Style guide: module.code-block
+.code-block {
+  padding: $size;
+  background-color: $color-gray-lighten;
+  border-radius: 2px;
+  & code {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}

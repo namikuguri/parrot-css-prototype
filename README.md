@@ -2,8 +2,8 @@
 - [x] grid
 - [x] container
 - [x] field
-- card
-- hero
+- [x] card
+- [x] hero
 - menu
 - accordion
 - media
@@ -40,9 +40,9 @@
     - ul
     - ol
     - dl
-- blockquote
-- pre
-- code
+- [x] blockquote
+- [x] pre
+- [x] code
 - [x] typography
     - h1 ~ h6
     - a

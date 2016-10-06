@@ -1,0 +1,16 @@
+// Blockquote
+//
+// Markup:
+// <blockquote>
+//   <p>あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコ</p>
+//   <p>あいうえおカキクケコ</p>
+// </blockquote>
+//
+// Style guide: element.blockquote
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 $size;
+  color: $color-gray;
+  border-left: $size-x0-25 solid $color-gray-lighten;
+}
